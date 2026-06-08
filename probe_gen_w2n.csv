@@ -1,0 +1,13 @@
+layer,test_acc,train_acc,train_label,test_label,n_train,n_test
+0,1.0,1.0,welfare,neutral,1020,240
+1,1.0,1.0,welfare,neutral,1020,240
+2,1.0,1.0,welfare,neutral,1020,240
+3,1.0,1.0,welfare,neutral,1020,240
+4,1.0,1.0,welfare,neutral,1020,240
+5,1.0,1.0,welfare,neutral,1020,240
+6,1.0,1.0,welfare,neutral,1020,240
+7,1.0,1.0,welfare,neutral,1020,240
+8,1.0,1.0,welfare,neutral,1020,240
+9,1.0,1.0,welfare,neutral,1020,240
+10,1.0,1.0,welfare,neutral,1020,240
+11,1.0,1.0,welfare,neutral,1020,240
