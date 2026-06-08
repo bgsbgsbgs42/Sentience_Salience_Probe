@@ -1,0 +1,40 @@
+12:01:05  INFO      ============================================================
+12:01:05  INFO      SENTIENCE SALIENCE PROBE — FULL CORPUS EXTRACTION
+12:01:05  INFO      ============================================================
+12:01:05  INFO      Model       : pythia-160m
+12:01:05  INFO      Corpus      : entity_position_lookup.json
+12:01:05  INFO      Output HDF5 : activations_160m.h5
+12:01:05  INFO      dtype       : float16
+12:01:05  WARNING   No GPU detected — extraction will be very slow on CPU
+12:01:05  INFO      RAM : 16.9 GB
+12:01:05  INFO      Disk free : 166.6 GB
+12:01:05  INFO      Estimated HDF5 output : ~0.65 GB
+12:01:05  INFO      Loading pythia-160m...
+12:01:05  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+12:01:05  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:01:05  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/tokenizer_config.json "HTTP/1.1 200 OK"
+12:01:07  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:01:07  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+12:01:08  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+12:01:19  INFO      Model loaded in 13.9s
+12:01:19  INFO        Layers  : 12
+12:01:19  INFO        Heads   : 12
+12:01:19  INFO        d_model : 768
+12:01:19  INFO        d_mlp   : 3072
+12:01:19  INFO      Corpus loaded: 1,500 extraction jobs
+12:01:19  INFO        Entities  : 60
+12:01:19  INFO        Templates : 25
+12:01:19  INFO      Jobs remaining: 1,500 (skipping 0 completed)
+12:01:19  INFO      HDF5 file: activations_160m.h5  (mode='w')
+12:01:19  INFO      
+Starting extraction: 1500 sentences remaining
+12:01:19  INFO      ------------------------------------------------------------
