@@ -160,3 +160,5 @@ Starting extraction: 1500 sentences remaining
 15:47:56  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160mb/resolve/main/config.json "HTTP/1.1 404 Not Found"
 18:43:29  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 18:43:29  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+18:57:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+18:57:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
