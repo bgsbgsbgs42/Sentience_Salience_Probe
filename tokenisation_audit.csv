@@ -1,0 +1,61 @@
+entity,tier,n_tokens_standalone,n_tokens_in_context,token_strings_standalone,token_strings_in_context,is_multi_token,has_unknown_token,context_differs,is_clean
+child,T1,1,1,['child'],['Ġchild'],False,False,True,False
+infant,T1,2,1,"['inf', 'ant']",['Ġinfant'],True,False,True,False
+elderly person,T1,4,2,"['el', 'der', 'ly', 'Ġperson']","['Ġelderly', 'Ġperson']",True,False,True,False
+worker,T1,1,1,['worker'],['Ġworker'],False,False,True,False
+patient,T1,1,1,['patient'],['Ġpatient'],False,False,True,False
+prisoner,T1,2,1,"['prison', 'er']",['Ġprisoner'],True,False,True,False
+refugee,T1,3,1,"['ref', 'uge', 'e']",['Ġrefugee'],True,False,True,False
+soldier,T1,2,1,"['sold', 'ier']",['Ġsoldier'],True,False,True,False
+teenager,T1,2,1,"['teen', 'ager']",['Ġteenager'],True,False,True,False
+woman,T1,1,1,['woman'],['Ġwoman'],False,False,True,False
+dog,T2,1,1,['dog'],['Ġdog'],False,False,True,False
+chimpanzee,T2,5,4,"['ch', 'im', 'pan', 'z', 'ee']","['Ġchim', 'pan', 'z', 'ee']",True,False,True,False
+pig,T2,2,1,"['p', 'ig']",['Ġpig'],True,False,True,False
+cow,T2,2,1,"['c', 'ow']",['Ġcow'],True,False,True,False
+dolphin,T2,2,2,"['d', 'olphin']","['Ġd', 'olphin']",True,False,True,False
+elephant,T2,2,1,"['ele', 'phant']",['Ġelephant'],True,False,True,False
+rabbit,T2,1,1,['rabbit'],['Ġrabbit'],False,False,True,False
+rat,T2,1,1,['rat'],['Ġrat'],False,False,True,False
+horse,T2,1,1,['horse'],['Ġhorse'],False,False,True,False
+whale,T2,2,1,"['wh', 'ale']",['Ġwhale'],True,False,True,False
+salmon,T3,2,1,"['sal', 'mon']",['Ġsalmon'],True,False,True,False
+chicken,T3,2,1,"['ch', 'icken']",['Ġchicken'],True,False,True,False
+frog,T3,2,1,"['f', 'rog']",['Ġfrog'],True,False,True,False
+zebrafish,T3,3,1,"['z', 'ebra', 'fish']",['Ġzebrafish'],True,False,True,False
+crow,T3,1,1,['crow'],['Ġcrow'],False,False,True,False
+snake,T3,2,1,"['sn', 'ake']",['Ġsnake'],True,False,True,False
+tuna,T3,2,2,"['t', 'una']","['Ġt', 'una']",True,False,True,False
+gecko,T3,2,2,"['ge', 'cko']","['Ġge', 'cko']",True,False,True,False
+trout,T3,2,1,"['tr', 'out']",['Ġtrout'],True,False,True,False
+pigeon,T3,3,2,"['p', 'ige', 'on']","['Ġpig', 'eon']",True,False,True,False
+octopus,T4,2,2,"['oct', 'opus']","['Ġoct', 'opus']",True,False,True,False
+crab,T4,2,1,"['cr', 'ab']",['Ġcrab'],True,False,True,False
+bee,T4,1,1,['bee'],['Ġbee'],False,False,True,False
+shrimp,T4,2,1,"['sh', 'rimp']",['Ġshrimp'],True,False,True,False
+lobster,T4,3,2,"['l', 'ob', 'ster']","['Ġlob', 'ster']",True,False,True,False
+squid,T4,2,2,"['squ', 'id']","['Ġsqu', 'id']",True,False,True,False
+crayfish,T4,3,3,"['c', 'ray', 'fish']","['Ġc', 'ray', 'fish']",True,False,True,False
+bumblebee,T4,3,3,"['bum', 'ble', 'bee']","['Ġb', 'umble', 'bee']",True,False,True,False
+mussel,T4,3,2,"['m', 'uss', 'el']","['Ġmuss', 'el']",True,False,True,False
+mantis shrimp,T4,3,3,"['mant', 'is', 'Ġshrimp']","['Ġmant', 'is', 'Ġshrimp']",True,False,True,False
+ant,T5,1,1,['ant'],['Ġant'],False,False,True,False
+fly,T5,1,1,['fly'],['Ġfly'],False,False,True,False
+earthworm,T5,2,2,"['earth', 'worm']","['Ġearth', 'worm']",True,False,True,False
+moth,T5,2,1,"['m', 'oth']",['Ġmoth'],True,False,True,False
+beetle,T5,3,2,"['be', 'et', 'le']","['Ġbeet', 'le']",True,False,True,False
+aphid,T5,2,2,"['aph', 'id']","['Ġaph', 'id']",True,False,True,False
+nematode,T5,3,2,"['n', 'emat', 'ode']","['Ġnemat', 'ode']",True,False,True,False
+cockroach,T5,3,3,"['cock', 'ro', 'ach']","['Ġcock', 'ro', 'ach']",True,False,True,False
+mite,T5,2,2,"['m', 'ite']","['Ġm', 'ite']",True,False,True,False
+woodlouse,T5,3,3,"['wood', 'l', 'ouse']","['Ġwood', 'l', 'ouse']",True,False,True,False
+oak tree,T6,3,2,"['o', 'ak', 'Ġtree']","['Ġoak', 'Ġtree']",True,False,True,False
+mushroom,T6,3,1,"['m', 'ush', 'room']",['Ġmushroom'],True,False,True,False
+bacterium,T6,3,1,"['b', 'acter', 'ium']",['Ġbacterium'],True,False,True,False
+moss,T6,2,1,"['m', 'oss']",['Ġmoss'],True,False,True,False
+seaweed,T6,2,2,"['sea', 'weed']","['Ġsea', 'weed']",True,False,True,False
+rock,T6,1,1,['rock'],['Ġrock'],False,False,True,False
+table,T6,1,1,['table'],['Ġtable'],False,False,True,False
+cloud,T6,1,1,['cloud'],['Ġcloud'],False,False,True,False
+river,T6,1,1,['river'],['Ġriver'],False,False,True,False
+statue,T6,2,1,"['stat', 'ue']",['Ġstatue'],True,False,True,False
