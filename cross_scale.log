@@ -1,0 +1,148 @@
+16:41:13  INFO      Cross-Scale Sentience Gradient Analysis
+16:41:13  INFO      ============================================================
+16:41:13  INFO      
+Loading corpus lookup...
+16:41:14  INFO      Device: cpu
+16:41:14  INFO      
+Extracting 160M...
+16:41:14  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+16:41:14  INFO      
+Extracting 410M...
+16:41:14  INFO        Loading pythia-410m...
+16:41:14  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+16:41:16  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 401 Unauthorized"
+16:45:48  INFO      Cross-Scale Sentience Gradient Analysis
+16:45:48  INFO      ============================================================
+16:45:48  INFO      
+Loading corpus lookup...
+16:45:48  INFO      Device: cpu
+16:45:48  INFO      
+Extracting 160M...
+16:45:48  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+16:45:48  INFO      
+Extracting 410M...
+16:45:48  INFO        Loading pythia-410m-deduped...
+16:45:48  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+16:45:48  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m-deduped/resolve/main/config.json "HTTP/1.1 401 Unauthorized"
+16:50:13  INFO      Cross-Scale Sentience Gradient Analysis
+16:50:13  INFO      ============================================================
+16:50:13  INFO      
+Loading corpus lookup...
+16:50:13  INFO      Device: cpu
+16:50:13  INFO      
+Extracting 160M...
+16:50:13  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+16:50:13  INFO      
+Extracting 410M...
+16:50:13  INFO        Loading pythia-410m...
+16:50:13  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+16:50:13  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 401 Unauthorized"
+16:53:04  INFO      Cross-Scale Sentience Gradient Analysis
+16:53:04  INFO      ============================================================
+16:53:04  INFO      
+Loading corpus lookup...
+16:53:04  INFO      Device: cpu
+16:53:04  INFO      
+Extracting 160M...
+16:53:04  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+16:53:04  INFO      
+Extracting 410M...
+16:53:04  INFO        Loading EleutherAI/pythia-410m...
+16:53:04  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+16:53:05  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 401 Unauthorized"
+16:57:26  INFO      HTTP Request: GET https://huggingface.co/api/whoami-v2 "HTTP/1.1 200 OK"
+16:57:26  INFO      Cross-Scale Sentience Gradient Analysis
+16:57:26  INFO      ============================================================
+16:57:26  INFO      
+Loading corpus lookup...
+16:57:26  INFO      Device: cpu
+16:57:26  INFO      
+Extracting 160M...
+16:57:26  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+16:57:26  INFO      
+Extracting 410M...
+16:57:26  INFO        Loading EleutherAI/pythia-410m...
+16:57:26  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+16:57:26  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:57:27  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+16:57:27  INFO      HTTP Request: GET https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+16:57:27  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:57:27  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+16:57:27  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+16:57:28  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/xet-read-token/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f "HTTP/1.1 200 OK"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+16:58:35  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/tokenizer_config.json "HTTP/1.1 200 OK"
+16:58:35  INFO      HTTP Request: GET https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/tokenizer_config.json "HTTP/1.1 200 OK"
+16:58:35  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+16:58:36  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+16:58:36  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/vocab.json "HTTP/1.1 404 Not Found"
+16:58:36  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/merges.txt "HTTP/1.1 404 Not Found"
+16:58:36  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+16:58:36  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/tokenizer.json "HTTP/1.1 200 OK"
+16:58:36  INFO      HTTP Request: GET https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/tokenizer.json "HTTP/1.1 200 OK"
+16:58:36  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+16:58:37  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+16:58:37  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/special_tokens_map.json "HTTP/1.1 200 OK"
+16:58:37  INFO      HTTP Request: GET https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/special_tokens_map.json "HTTP/1.1 200 OK"
+16:58:37  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+16:58:39  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+17:00:10  INFO        Loaded in 163.5s
+17:00:13  INFO        410M: 1500 sentences to extract
+19:36:10  INFO        410M: 200/1500 (0.0/s  ETA 1031.7min  errors=0)
+22:17:34  INFO        410M: 400/1500 (0.0/s  ETA 880.4min  errors=0)
+00:14:48  INFO        410M: 600/1500 (0.0/s  ETA 656.0min  errors=0)
+09:06:52  INFO      Cross-Scale Sentience Gradient Analysis
+09:06:52  INFO      ============================================================
+09:06:52  INFO      
+Loading corpus lookup...
+09:06:52  INFO      Device: cpu
+09:06:52  INFO      
+Extracting 160M...
+09:06:53  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+09:06:53  INFO      
+Extracting 410M...
+09:07:17  INFO      HTTP Request: GET https://huggingface.co/api/whoami-v2 "HTTP/1.1 200 OK"
+09:07:17  INFO      Cross-Scale Sentience Gradient Analysis
+09:07:17  INFO      ============================================================
+09:07:17  INFO      
+Loading corpus lookup...
+09:07:17  INFO      Device: cpu
+09:07:17  INFO      
+Extracting 160M...
+09:07:17  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+09:07:17  INFO      
+Extracting 410M...
+09:38:50  INFO      Cross-Scale Sentience Gradient Analysis
+09:38:50  INFO      ============================================================
+09:38:50  INFO      
+Loading corpus lookup...
+09:38:50  INFO      Device: cpu
+09:38:50  INFO      
+Extracting 160M...
+09:38:50  INFO        160M: HDF5 already complete (1500 groups) — skipping extraction
+09:38:50  INFO      
+Extracting 410M...
+09:38:50  INFO        410M: resuming extraction (0/1500 done)
+09:38:50  INFO        Loading EleutherAI/pythia-410m...
+09:38:50  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+09:38:51  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+09:38:51  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+09:38:51  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+09:38:51  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+09:38:52  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+09:38:53  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+09:38:53  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+09:38:53  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+09:38:53  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+09:38:53  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+09:38:53  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/tokenizer_config.json "HTTP/1.1 200 OK"
+09:38:53  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+09:38:53  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+09:38:56  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+09:39:45  INFO        Loaded in 54.9s
+09:39:45  INFO        410M: 1500 sentences to extract
