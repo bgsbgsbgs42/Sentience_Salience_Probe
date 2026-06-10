@@ -1,0 +1,4 @@
+Framing,N sentences,Peak acc (6cls),Above chance,Beats null,Peak layer,Peak |r|,Peak bin acc
+welfare,1020,1.000,+0.833,YES ✓,0,0.673,1.000
+neutral,240,1.000,+0.833,YES ✓,0,0.645,1.000
+scientific,240,1.000,+0.833,YES ✓,0,0.710,1.000

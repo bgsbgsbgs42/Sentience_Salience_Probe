@@ -1,0 +1,10 @@
+train,test,peak_acc,peak_layer
+welfare,welfare,1.0,0
+welfare,neutral,1.0,0
+welfare,scientific,1.0,0
+neutral,welfare,1.0,0
+neutral,neutral,1.0,0
+neutral,scientific,1.0,0
+scientific,welfare,1.0,0
+scientific,neutral,1.0,0
+scientific,scientific,1.0,0
