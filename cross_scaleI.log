@@ -1,0 +1,176 @@
+20:54:03  INFO      Cross-Scale Sentience Gradient Analysis
+20:54:03  INFO      ============================================================
+20:54:03  INFO      
+Loading corpus lookup...
+20:56:17  INFO      Cross-Scale Sentience Gradient Analysis
+20:56:17  INFO      ============================================================
+20:56:17  INFO      
+Loading corpus lookup...
+20:58:04  INFO      Cross-Scale Sentience Gradient Analysis
+20:58:04  INFO      ============================================================
+20:58:04  INFO      
+Loading corpus lookup...
+20:58:04  INFO      Device: cpu
+20:58:04  INFO      
+Extracting 160M...
+21:08:28  INFO      Cross-Scale Sentience Gradient Analysis
+21:08:28  INFO      ============================================================
+21:08:28  INFO      
+Loading corpus lookup...
+21:08:28  INFO      Device: cpu
+21:08:28  INFO      
+Extracting 160M...
+21:10:04  INFO      Cross-Scale Sentience Gradient Analysis
+21:10:04  INFO      ============================================================
+21:10:04  INFO      
+Loading corpus lookup...
+21:10:04  INFO      Device: cpu
+21:10:04  INFO      
+Extracting 160M...
+21:11:09  INFO      Cross-Scale Sentience Gradient Analysis
+21:11:09  INFO      ============================================================
+21:11:09  INFO      
+Loading corpus lookup...
+21:11:09  INFO      Device: cpu
+21:11:09  INFO      
+Extracting 160M...
+21:11:09  INFO        160M: resuming extraction
+21:11:09  INFO        Loading pythia-160m...
+21:11:09  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+21:11:09  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:11:09  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+21:11:09  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:11:09  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+21:11:10  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/tokenizer_config.json "HTTP/1.1 200 OK"
+21:11:10  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+21:11:10  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+21:11:11  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+21:11:17  INFO        Loaded in 8.2s
+21:11:17  INFO        160M: 1500 sentences to extract
+21:24:11  INFO        160M: 200/1500 (0.3/s  ETA 84.7min  errors=0)
+21:37:18  INFO        160M: 400/1500 (0.3/s  ETA 71.9min  errors=0)
+21:50:12  INFO        160M: 600/1500 (0.3/s  ETA 58.6min  errors=0)
+22:03:43  INFO        160M: 800/1500 (0.3/s  ETA 46.0min  errors=0)
+22:17:28  INFO        160M: 1000/1500 (0.3/s  ETA 33.2min  errors=0)
+22:30:07  INFO        160M: 1200/1500 (0.3/s  ETA 19.7min  errors=0)
+22:42:27  INFO        160M: 1400/1500 (0.3/s  ETA 6.5min  errors=0)
+22:48:23  INFO        160M: extraction complete (0 errors)  file=0.08GB
+22:48:23  INFO      
+Extracting 410M...
+22:48:23  INFO        410M: resuming extraction
+22:48:23  INFO        Loading EleutherAI/pythia-410m...
+22:48:23  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+22:48:23  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+22:48:23  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+22:48:24  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+22:48:24  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+22:48:24  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+22:48:24  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+22:48:24  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+22:48:25  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+22:48:25  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/config.json "HTTP/1.1 200 OK"
+22:48:25  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-410m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+22:48:25  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-410m/9879c9b5f8bea9051dcb0e68dff21493d67e9d4f/tokenizer_config.json "HTTP/1.1 200 OK"
+22:48:25  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+22:48:25  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-410m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+22:48:27  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+22:49:07  INFO        Loaded in 44.3s
+22:49:07  INFO        410M: 1500 sentences to extract
+00:39:37  INFO        410M: 200/1500 (0.0/s  ETA 723.0min  errors=0)
+02:34:44  INFO        410M: 400/1500 (0.0/s  ETA 622.5min  errors=0)
+04:24:57  INFO        410M: 600/1500 (0.0/s  ETA 504.9min  errors=0)
+06:18:27  INFO        410M: 800/1500 (0.0/s  ETA 393.8min  errors=0)
+08:15:06  INFO        410M: 1000/1500 (0.0/s  ETA 283.4min  errors=0)
+10:07:19  INFO        410M: 1200/1500 (0.0/s  ETA 169.7min  errors=0)
+11:52:13  INFO        410M: 1400/1500 (0.0/s  ETA 56.0min  errors=0)
+12:43:01  INFO        410M: extraction complete (0 errors)  file=0.17GB
+12:43:01  INFO      
+Extracting 1.4B...
+12:43:01  INFO        1.4B: resuming extraction
+12:43:01  INFO        Loading pythia-1.4b...
+12:43:01  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+12:43:02  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:43:02  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+12:43:02  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:43:02  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+12:43:03  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/tokenizer_config.json "HTTP/1.1 200 OK"
+12:43:03  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-1.4b/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:43:03  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-1.4b/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+12:43:06  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+12:50:35  INFO        Loaded in 452.8s
+12:50:37  INFO        1.4B: 1500 sentences to extract
+03:25:27  INFO        1.4B: 200/1500 (0.0/s  ETA 5735.7min  errors=0)
+20:42:51  INFO        1.4B: 400/1500 (0.0/s  ETA 5279.5min  errors=0)
+12:53:04  INFO        1.4B: 600/1500 (0.0/s  ETA 4335.1min  errors=0)
+05:39:14  INFO        1.4B: 800/1500 (0.0/s  ETA 3409.2min  errors=0)
+23:01:56  INFO        1.4B: 1000/1500 (0.0/s  ETA 2469.5min  errors=0)
+15:05:38  INFO        1.4B: 1200/1500 (0.0/s  ETA 1475.7min  errors=0)
+08:13:51  INFO        1.4B: 1400/1500 (0.0/s  ETA 495.1min  errors=0)
+15:58:54  INFO        1.4B: extraction complete (0 errors)  file=0.31GB
+15:58:54  INFO      
+[160M] Loading matrix...
+15:58:58  INFO        Matrix shape: (1500, 12, 768)
+15:58:58  INFO        Running probe suite...
+15:58:58  INFO        [160M] Running 6-class probe...
+15:59:16  INFO          Layer  0/11  6cls=1.000  bin=1.000
+15:59:19  INFO          Layer  3/11  6cls=1.000  bin=1.000
+15:59:22  INFO          Layer  6/11  6cls=1.000  bin=1.000
+15:59:25  INFO          Layer  9/11  6cls=1.000  bin=1.000
+15:59:27  INFO        [160M] Running generalisation probe...
+15:59:29  INFO        [160M] Running shuffle null...
+16:07:47  INFO        Peak 6-class accuracy: 1.000 at layer 0/11
+16:07:47  INFO      
+[410M] Loading matrix...
+16:07:51  INFO        Matrix shape: (1500, 24, 1024)
+16:07:51  INFO        Running probe suite...
+16:07:51  INFO        [410M] Running 6-class probe...
+16:07:52  INFO          Layer  0/23  6cls=1.000  bin=1.000
+16:07:58  INFO          Layer  6/23  6cls=1.000  bin=1.000
+16:08:05  INFO          Layer 12/23  6cls=1.000  bin=1.000
+16:08:12  INFO          Layer 18/23  6cls=1.000  bin=1.000
+16:08:17  INFO        [410M] Running generalisation probe...
+16:08:20  INFO        [410M] Running shuffle null...
+16:29:10  INFO        Peak 6-class accuracy: 1.000 at layer 0/23
+16:29:10  INFO      
+[1.4B] Loading matrix...
+16:29:16  INFO        Matrix shape: (1500, 24, 2048)
+16:29:16  INFO        Running probe suite...
+16:29:16  INFO        [1.4B] Running 6-class probe...
+16:29:18  INFO          Layer  0/23  6cls=1.000  bin=1.000
+16:29:29  INFO          Layer  6/23  6cls=1.000  bin=1.000
+16:29:40  INFO          Layer 12/23  6cls=1.000  bin=1.000
+16:29:51  INFO          Layer 18/23  6cls=1.000  bin=1.000
+16:30:00  INFO        [1.4B] Running generalisation probe...
+16:30:04  INFO        [1.4B] Running shuffle null...
+17:16:16  INFO        Peak 6-class accuracy: 1.000 at layer 0/23
+17:16:16  INFO      model  params_b  n_layers  peak_acc_6class  peak_above_chance  peak_layer  peak_layer_frac  auc_above_chance  first_exceed_frac  frac_sig_layers  peak_spearman_r  peak_binary  gen_w2n_peak  gen_retention
+ 160M      0.16        12              1.0           0.833333           0              0.0          0.763889                0.0              1.0         0.673104          1.0           1.0            1.0
+ 410M      0.41        24              1.0           0.833333           0              0.0          0.798611                0.0              1.0         0.637765          1.0           1.0            1.0
+ 1.4B      1.40        24              1.0           0.833333           0              0.0          0.798611                0.0              1.0         0.526943          1.0           1.0            1.0
+17:16:16  INFO      
+Building figures...
+18:59:35  INFO      Saved: cross_scale_main.png
+18:59:40  INFO      Saved: cross_scale_per_model.png
+18:59:50  INFO      Saved: cross_scale_metrics.png
+18:59:51  INFO        cross_scale_main.png                          460 KB
+18:59:51  INFO        cross_scale_per_model.png                     126 KB
+18:59:51  INFO        cross_scale_metrics.png                       170 KB
+18:59:51  INFO        cross_scale_metrics.csv                       1 KB
+18:59:51  INFO        probe_results_160m.csv                        1 KB
+18:59:51  INFO        probe_results_410m.csv                        2 KB
+18:59:51  INFO        probe_results_1.4b.csv                        2 KB
+18:59:51  INFO        cross_scale.log                               14 KB
+18:59:51  INFO      
+ Cross-scale analysis complete
