@@ -1,0 +1,900 @@
+{
+  "child": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120child"
+    ],
+    "token_ids": [
+      1429
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "infant": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120infant"
+    ],
+    "token_ids": [
+      13131
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "elderly person": {
+    "tier": "T1",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120elderly",
+      "\u0120person"
+    ],
+    "token_ids": [
+      13988,
+      1436
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "worker": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120worker"
+    ],
+    "token_ids": [
+      12954
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "patient": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120patient"
+    ],
+    "token_ids": [
+      3110
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "prisoner": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120prisoner"
+    ],
+    "token_ids": [
+      18897
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "refugee": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120refugee"
+    ],
+    "token_ids": [
+      29302
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "soldier": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120soldier"
+    ],
+    "token_ids": [
+      15796
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "teenager": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120teenager"
+    ],
+    "token_ids": [
+      28713
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "woman": {
+    "tier": "T1",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120woman"
+    ],
+    "token_ids": [
+      3416
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "dog": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120dog"
+    ],
+    "token_ids": [
+      4370
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "chimpanzee": {
+    "tier": "T2",
+    "n_tokens": 4,
+    "token_strings": [
+      "\u0120chim",
+      "pan",
+      "z",
+      "ee"
+    ],
+    "token_ids": [
+      19114,
+      4029,
+      91,
+      1796
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "pig": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120pig"
+    ],
+    "token_ids": [
+      8393
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "cow": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120cow"
+    ],
+    "token_ids": [
+      12120
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "dolphin": {
+    "tier": "T2",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120d",
+      "olphin"
+    ],
+    "token_ids": [
+      277,
+      41178
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "elephant": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120elephant"
+    ],
+    "token_ids": [
+      31865
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "rabbit": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120rabbit"
+    ],
+    "token_ids": [
+      17876
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "rat": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120rat"
+    ],
+    "token_ids": [
+      2839
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "horse": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120horse"
+    ],
+    "token_ids": [
+      8815
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "whale": {
+    "tier": "T2",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120whale"
+    ],
+    "token_ids": [
+      35105
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "salmon": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120salmon"
+    ],
+    "token_ids": [
+      24791
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "chicken": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120chicken"
+    ],
+    "token_ids": [
+      11152
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "frog": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120frog"
+    ],
+    "token_ids": [
+      40096
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "zebrafish": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120zebrafish"
+    ],
+    "token_ids": [
+      35836
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "crow": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120crow"
+    ],
+    "token_ids": [
+      6207
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "snake": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120snake"
+    ],
+    "token_ids": [
+      24980
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "tuna": {
+    "tier": "T3",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120t",
+      "una"
+    ],
+    "token_ids": [
+      246,
+      9821
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "gecko": {
+    "tier": "T3",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120ge",
+      "cko"
+    ],
+    "token_ids": [
+      3471,
+      49993
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "trout": {
+    "tier": "T3",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120trout"
+    ],
+    "token_ids": [
+      40732
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "pigeon": {
+    "tier": "T3",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120pig",
+      "eon"
+    ],
+    "token_ids": [
+      8393,
+      33453
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "octopus": {
+    "tier": "T4",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120oct",
+      "opus"
+    ],
+    "token_ids": [
+      17109,
+      30504
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "crab": {
+    "tier": "T4",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120crab"
+    ],
+    "token_ids": [
+      40501
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "bee": {
+    "tier": "T4",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120bee"
+    ],
+    "token_ids": [
+      30747
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "shrimp": {
+    "tier": "T4",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120shrimp"
+    ],
+    "token_ids": [
+      35423
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "lobster": {
+    "tier": "T4",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120lob",
+      "ster"
+    ],
+    "token_ids": [
+      11037,
+      2971
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "squid": {
+    "tier": "T4",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120squ",
+      "id"
+    ],
+    "token_ids": [
+      3896,
+      301
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "crayfish": {
+    "tier": "T4",
+    "n_tokens": 3,
+    "token_strings": [
+      "\u0120c",
+      "ray",
+      "fish"
+    ],
+    "token_ids": [
+      260,
+      1402,
+      12306
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "bumblebee": {
+    "tier": "T4",
+    "n_tokens": 3,
+    "token_strings": [
+      "\u0120b",
+      "umble",
+      "bee"
+    ],
+    "token_ids": [
+      270,
+      19493,
+      28700
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "mussel": {
+    "tier": "T4",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120muss",
+      "el"
+    ],
+    "token_ids": [
+      45215,
+      293
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "mantis shrimp": {
+    "tier": "T4",
+    "n_tokens": 3,
+    "token_strings": [
+      "\u0120mant",
+      "is",
+      "\u0120shrimp"
+    ],
+    "token_ids": [
+      18006,
+      261,
+      35423
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "ant": {
+    "tier": "T5",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120ant"
+    ],
+    "token_ids": [
+      1331
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "fly": {
+    "tier": "T5",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120fly"
+    ],
+    "token_ids": [
+      8778
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "earthworm": {
+    "tier": "T5",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120earth",
+      "worm"
+    ],
+    "token_ids": [
+      6149,
+      36141
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "moth": {
+    "tier": "T5",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120moth"
+    ],
+    "token_ids": [
+      42057
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "beetle": {
+    "tier": "T5",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120beet",
+      "le"
+    ],
+    "token_ids": [
+      28868,
+      282
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "aphid": {
+    "tier": "T5",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120aph",
+      "id"
+    ],
+    "token_ids": [
+      38779,
+      301
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "nematode": {
+    "tier": "T5",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120nemat",
+      "ode"
+    ],
+    "token_ids": [
+      44087,
+      853
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "cockroach": {
+    "tier": "T5",
+    "n_tokens": 3,
+    "token_strings": [
+      "\u0120cock",
+      "ro",
+      "ach"
+    ],
+    "token_ids": [
+      11694,
+      287,
+      607
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "mite": {
+    "tier": "T5",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120m",
+      "ite"
+    ],
+    "token_ids": [
+      278,
+      614
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "woodlouse": {
+    "tier": "T5",
+    "n_tokens": 3,
+    "token_strings": [
+      "\u0120wood",
+      "l",
+      "ouse"
+    ],
+    "token_ids": [
+      5534,
+      77,
+      1312
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "oak tree": {
+    "tier": "T6",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120oak",
+      "\u0120tree"
+    ],
+    "token_ids": [
+      29098,
+      5202
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "mushroom": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120mushroom"
+    ],
+    "token_ids": [
+      41983
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "bacterium": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120bacterium"
+    ],
+    "token_ids": [
+      42207
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "moss": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120moss"
+    ],
+    "token_ids": [
+      43177
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "seaweed": {
+    "tier": "T6",
+    "n_tokens": 2,
+    "token_strings": [
+      "\u0120sea",
+      "weed"
+    ],
+    "token_ids": [
+      6150,
+      31108
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "rock": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120rock"
+    ],
+    "token_ids": [
+      5561
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "table": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120table"
+    ],
+    "token_ids": [
+      2829
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "cloud": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120cloud"
+    ],
+    "token_ids": [
+      9005
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "river": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120river"
+    ],
+    "token_ids": [
+      8281
+    ],
+    "is_multi_token": false,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  },
+  "statue": {
+    "tier": "T6",
+    "n_tokens": 1,
+    "token_strings": [
+      "\u0120statue"
+    ],
+    "token_ids": [
+      23957
+    ],
+    "is_multi_token": true,
+    "aggregation_strategy": "mean_pool",
+    "context_differs": true,
+    "requires_position_check": true
+  }
+}

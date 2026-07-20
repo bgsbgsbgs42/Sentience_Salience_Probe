@@ -1,0 +1,114 @@
+sentence_id,sentence,entity,tier,template_id,template_type,perplexity,global_z,template_z,flag_reason,recommended_action
+T01_ZEBRAFISH,The zebrafish was in pain.,zebrafish,T3,T01,pain_suffering,794.4783325195312,7.707379309816135,5.504815622749476,global_z=7.71; template_z=5.50; absolute>500,rewrite_or_cut
+T21_ZEBRAFISH,"The zebrafish was clearly frightened, and those responsible agreed its distress mattered.",zebrafish,T3,T21,cross_framing,778.6805419921875,7.530386581849729,3.8690434808476053,global_z=7.53; template_z=3.87; absolute>500,rewrite_or_cut
+T05_STATUE,The statue felt fear as the predator approached.,statue,T6,T05,fear,666.1630249023438,6.269781039620995,3.224815205397218,global_z=6.27; template_z=3.22; absolute>500,keep_expected_anomaly
+T21_BACTERIUM,"The bacterium was clearly frightened, and those responsible agreed its distress mattered.",bacterium,T6,T21,cross_framing,640.22314453125,5.979160007391492,2.694272903211292,global_z=5.98; template_z=2.69; absolute>500,keep_expected_anomaly
+T05_MOSS,The moss felt fear as the predator approached.,moss,T6,T05,fear,623.5438232421875,5.792290927790163,2.910006848792081,global_z=5.79; template_z=2.91; absolute>500,keep_expected_anomaly
+T05_CLOUD,The cloud felt fear as the predator approached.,cloud,T6,T05,fear,621.2159423828125,5.766210193084357,2.892811868145658,global_z=5.77; template_z=2.89; absolute>500,keep_expected_anomaly
+T21_MOSS,"The moss was clearly frightened, and those responsible agreed its distress mattered.",moss,T6,T21,cross_framing,598.925537109375,5.516476559131316,2.3438747661981996,global_z=5.52; template_z=2.34; absolute>500,keep_expected_anomaly
+T21_MUSHROOM,"The mushroom was clearly frightened, and those responsible agreed its distress mattered.",mushroom,T6,T21,cross_framing,533.2054443359375,4.780172423306585,1.786258974152526,global_z=4.78; absolute>500,keep_expected_anomaly
+T08_ZEBRAFISH,"The zebrafish froze, overwhelmed by fear.",zebrafish,T3,T08,fear,513.8264770507812,4.563057486946668,3.222300064808533,global_z=4.56; template_z=3.22; absolute>500,rewrite_or_cut
+T05_MUSHROOM,The mushroom felt fear as the predator approached.,mushroom,T6,T05,fear,511.09625244140625,4.5324690384710475,2.0794085834771336,global_z=4.53; template_z=2.08; absolute>500,keep_expected_anomaly
+T21_STATUE,"The statue was clearly frightened, and those responsible agreed its distress mattered.",statue,T6,T21,cross_framing,494.7541809082031,4.349378383086209,1.4600112345863567,global_z=4.35,keep_expected_anomaly
+T05_TABLE,The table felt fear as the predator approached.,table,T6,T05,fear,490.98919677734375,4.307196863403591,1.9308870508532794,global_z=4.31,keep_expected_anomaly
+T01_BACTERIUM,The bacterium was in pain.,bacterium,T6,T01,pain_suffering,480.56500244140625,4.190407962501526,2.8632689974865366,global_z=4.19; template_z=2.86,keep_expected_anomaly
+T05_RIVER,The river felt fear as the predator approached.,river,T6,T05,fear,466.08551025390625,4.028184972052443,1.746935021663061,global_z=4.03,keep_expected_anomaly
+T08_BACTERIUM,"The bacterium froze, overwhelmed by fear.",bacterium,T6,T08,fear,452.0636291503906,3.871088890582302,2.578655780009182,global_z=3.87; template_z=2.58,keep_expected_anomaly
+T05_BACTERIUM,The bacterium felt fear as the predator approached.,bacterium,T6,T05,fear,444.6651306152344,3.7881987904555636,1.58871257147079,global_z=3.79,keep_expected_anomaly
+T21_CLOUD,"The cloud was clearly frightened, and those responsible agreed its distress mattered.",cloud,T6,T21,cross_framing,437.76165771484375,3.7108547783946735,0.9764463213306166,global_z=3.71,keep_expected_anomaly
+T18_MOSS,The moss was observed near the window.,moss,T6,T18,neutral_control,435.7909851074219,3.688776075672761,3.0850263818694295,global_z=3.69; template_z=3.09,rewrite_or_cut
+T17_ZEBRAFISH,The zebrafish moved across the room.,zebrafish,T3,T17,neutral_control,426.65936279296875,3.5864686839272824,4.761773510959547,global_z=3.59; template_z=4.76,rewrite_or_cut
+T05_ROCK,The rock felt fear as the predator approached.,rock,T6,T05,fear,420.7339782714844,3.5200828201008063,1.4119442030466995,global_z=3.52,keep_expected_anomaly
+T21_SEAWEED,"The seaweed was clearly frightened, and those responsible agreed its distress mattered.",seaweed,T6,T21,cross_framing,420.3271179199219,3.515524503961611,0.8285193433482227,global_z=3.52,keep_expected_anomaly
+T21_SHRIMP,"The shrimp was clearly frightened, and those responsible agreed its distress mattered.",shrimp,T4,T21,cross_framing,414.36224365234375,3.448696211310944,0.7779091273731051,global_z=3.45,rewrite_or_cut
+T21_ROCK,"The rock was clearly frightened, and those responsible agreed its distress mattered.",rock,T6,T21,cross_framing,403.5067138671875,3.327074784132897,0.6858031277651456,global_z=3.33,keep_expected_anomaly
+T21_TROUT,"The trout was clearly frightened, and those responsible agreed its distress mattered.",trout,T3,T21,cross_framing,401.54412841796875,3.3050866870048106,0.6691511634489031,global_z=3.31,rewrite_or_cut
+T21_RIVER,"The river was clearly frightened, and those responsible agreed its distress mattered.",river,T6,T21,cross_framing,396.79864501953125,3.251920008363581,0.6288871228459533,global_z=3.25,keep_expected_anomaly
+T21_MOTH,"The moth was clearly frightened, and those responsible agreed its distress mattered.",moth,T5,T21,cross_framing,396.1443176269531,3.2445891610533137,0.6233353460320121,global_z=3.24,rewrite_or_cut
+T21_SALMON,"The salmon was clearly frightened, and those responsible agreed its distress mattered.",salmon,T3,T21,cross_framing,395.7733154296875,3.240432586698063,0.6201875007483462,global_z=3.24,rewrite_or_cut
+T18_SALMON,The salmon was observed near the window.,salmon,T3,T18,neutral_control,391.058349609375,3.1876078159580636,2.5662364521497385,global_z=3.19; template_z=2.57,rewrite_or_cut
+T08_MUSHROOM,"The mushroom froze, overwhelmed by fear.",mushroom,T6,T08,fear,383.9236755371094,3.107673509637457,1.8685542675204099,global_z=3.11,keep_expected_anomaly
+T21_TEENAGER,"The teenager was clearly frightened, and those responsible agreed its distress mattered.",teenager,T1,T21,cross_framing,382.2524108886719,3.0889492653345094,0.5054665748238526,global_z=3.09,rewrite_or_cut
+T21_ANT,"The ant was clearly frightened, and those responsible agreed its distress mattered.",ant,T5,T21,cross_framing,372.8877868652344,2.9840314067631417,0.42601047514911816,global_z=2.98,review
+T21_REFUGEE,"The refugee was clearly frightened, and those responsible agreed its distress mattered.",refugee,T1,T21,cross_framing,372.84619140625,2.983565386293766,0.425657549828592,global_z=2.98,review
+T21_OAK_TREE,"The oak tree was clearly frightened, and those responsible agreed its distress mattered.",oak tree,T6,T21,cross_framing,372.7098388671875,2.9820377417910713,0.42450063835969176,global_z=2.98,keep_expected_anomaly
+T21_NEMATODE,"The nematode was clearly frightened, and those responsible agreed its distress mattered.",nematode,T5,T21,cross_framing,372.6091003417969,2.9809091038091116,0.42364590139486646,global_z=2.98,review
+T18_REFUGEE,The refugee was observed near the window.,refugee,T1,T18,neutral_control,371.82476806640625,2.972121728839605,2.3431736188102996,global_z=2.97; template_z=2.34,review
+T08_MOSS,"The moss froze, overwhelmed by fear.",moss,T6,T08,fear,371.81927490234375,2.972060185417384,1.7424116339738882,global_z=2.97,keep_expected_anomaly
+T05_SEAWEED,The seaweed felt fear as the predator approached.,seaweed,T6,T05,fear,366.5055236816406,2.912526839747355,1.0113836574317676,global_z=2.91,keep_expected_anomaly
+T18_TROUT,The trout was observed near the window.,trout,T3,T18,neutral_control,364.9158630371094,2.894716857172296,2.2630471001135546,global_z=2.89; template_z=2.26,review
+T08_FLY,"The fly froze, overwhelmed by fear.",fly,T5,T08,fear,362.659912109375,2.8694419993896876,1.6469598904984895,global_z=2.87,review
+T21_WORKER,"The worker was clearly frightened, and those responsible agreed its distress mattered.",worker,T1,T21,cross_framing,351.10736083984375,2.740011395747553,0.24120992182200607,global_z=2.74,review
+T21_CROW,"The crow was clearly frightened, and those responsible agreed its distress mattered.",crow,T3,T21,cross_framing,350.8457946777344,2.7370809031261127,0.2389906093332094,global_z=2.74,review
+T21_CRAB,"The crab was clearly frightened, and those responsible agreed its distress mattered.",crab,T4,T21,cross_framing,349.5161437988281,2.7221839758695316,0.22770890998227353,global_z=2.72,review
+T18_SHRIMP,The shrimp was observed near the window.,shrimp,T4,T18,neutral_control,346.5733337402344,2.6892137969539447,2.050318308732089,global_z=2.69; template_z=2.05,review
+T21_FLY,"The fly was clearly frightened, and those responsible agreed its distress mattered.",fly,T5,T21,cross_framing,345.3096008300781,2.6750553907640198,0.19201762151468119,global_z=2.68,review
+T08_CROW,"The crow froze, overwhelmed by fear.",crow,T3,T08,fear,344.9690856933594,2.671240382402098,1.4625998795351052,global_z=2.67,review
+T08_SALMON,"The salmon froze, overwhelmed by fear.",salmon,T3,T08,fear,341.25262451171875,2.6296024962824354,1.4238698163893853,global_z=2.63,review
+T21_TUNA,"The tuna was clearly frightened, and those responsible agreed its distress mattered.",tuna,T3,T21,cross_framing,337.7972412109375,2.5908896322577935,0.12827744431194704,global_z=2.59,review
+T21_TABLE,"The table was clearly frightened, and those responsible agreed its distress mattered.",table,T6,T21,cross_framing,336.6815490722656,2.578389821296734,0.11881112238009339,global_z=2.58,keep_expected_anomaly
+T21_SNAKE,"The snake was clearly frightened, and those responsible agreed its distress mattered.",snake,T3,T21,cross_framing,333.3511657714844,2.5410774120355293,0.09055379279166946,global_z=2.54,review
+T21_PATIENT,"The patient was clearly frightened, and those responsible agreed its distress mattered.",patient,T1,T21,cross_framing,333.0648498535156,2.5378696321061915,0.08812448585316866,global_z=2.54,review
+T21_BEE,"The bee was clearly frightened, and those responsible agreed its distress mattered.",bee,T4,T21,cross_framing,325.9239196777344,2.4578652346658325,0.027535778992418478,global_z=2.46,review
+T21_EARTHWORM,"The earthworm was clearly frightened, and those responsible agreed its distress mattered.",earthworm,T5,T21,cross_framing,323.1354064941406,2.4266237420988634,0.003876059082103737,global_z=2.43,review
+T21_SOLDIER,"The soldier was clearly frightened, and those responsible agreed its distress mattered.",soldier,T1,T21,cross_framing,323.0890197753906,2.426104042088994,0.0034824813218691146,global_z=2.43,review
+T13_MOSS,The moss's interests were considered in the decision.,moss,T6,T13,moral_consideration,317.5274658203125,2.3637944042609793,3.865490239413356,global_z=2.36; template_z=3.87,keep_expected_anomaly
+T03_MOSS,The moss experienced significant physical distress during the procedure.,moss,T6,T03,pain_suffering,311.7225646972656,2.2987583928285584,2.976613334835772,global_z=2.30; template_z=2.98,keep_expected_anomaly
+T21_WHALE,"The whale was clearly frightened, and those responsible agreed its distress mattered.",whale,T2,T21,cross_framing,311.2600402832031,2.29357643667752,-0.0968829547308036,global_z=2.29,review
+T08_RIVER,"The river froze, overwhelmed by fear.",river,T6,T08,fear,310.81182861328125,2.2885548353321585,1.1066395562761868,global_z=2.29,keep_expected_anomaly
+T21_FROG,"The frog was clearly frightened, and those responsible agreed its distress mattered.",frog,T3,T21,cross_framing,307.7148742675781,2.25385767960746,-0.12696265292220862,global_z=2.25,review
+T21_COW,"The cow was clearly frightened, and those responsible agreed its distress mattered.",cow,T2,T21,cross_framing,304.1269836425781,2.213660251475678,-0.1574048569454087,global_z=2.21,review
+T21_PRISONER,"The prisoner was clearly frightened, and those responsible agreed its distress mattered.",prisoner,T1,T21,cross_framing,301.6473388671875,2.1858792087770555,-0.17844391862458225,global_z=2.19,review
+T21_CHICKEN,"The chicken was clearly frightened, and those responsible agreed its distress mattered.",chicken,T3,T21,cross_framing,296.171142578125,2.1245258873487805,-0.2249078446821754,global_z=2.12,review
+T21_MUSSEL,"The mussel was clearly frightened, and those responsible agreed its distress mattered.",mussel,T4,T21,cross_framing,294.972900390625,2.111101215514895,-0.2350745796676045,global_z=2.11,review
+T01_MOSS,The moss was in pain.,moss,T6,T01,pain_suffering,293.2218933105469,2.0914835658660342,1.2867970535658175,global_z=2.09,keep_expected_anomaly
+T21_PIG,"The pig was clearly frightened, and those responsible agreed its distress mattered.",pig,T2,T21,cross_framing,291.19512939453125,2.0687764364216616,-0.26712786318039655,global_z=2.07,review
+T01_MOTH,The moth was in pain.,moth,T5,T01,pain_suffering,290.505859375,2.061054104564486,1.2639419225818675,global_z=2.06,review
+T21_WOMAN,"The woman was clearly frightened, and those responsible agreed its distress mattered.",woman,T1,T21,cross_framing,290.3216552734375,2.058990348472663,-0.2745390359787093,global_z=2.06,review
+T17_REFUGEE,The refugee moved across the room.,refugee,T1,T17,neutral_control,289.9597473144531,2.054935662671979,2.7095213993678646,global_z=2.05; template_z=2.71,review
+T08_NEMATODE,"The nematode froze, overwhelmed by fear.",nematode,T5,T08,fear,288.5199890136719,2.038805131707761,0.8743313703082649,global_z=2.04,review
+T21_INFANT,"The infant was clearly frightened, and those responsible agreed its distress mattered.",infant,T1,T21,cross_framing,286.780517578125,2.019316723245565,-0.3045845550488308,global_z=2.02,review
+T18_ZEBRAFISH,The zebrafish was observed near the window.,zebrafish,T3,T18,neutral_control,285.8661804199219,2.00907282061682,1.3462627695519194,global_z=2.01,review
+T21_APHID,"The aphid was clearly frightened, and those responsible agreed its distress mattered.",aphid,T5,T21,cross_framing,285.66448974609375,2.0068131512975924,-0.3140537252407914,global_z=2.01,review
+T03_RIVER,The river experienced significant physical distress during the procedure.,river,T6,T03,pain_suffering,280.53692626953125,1.9493657857329665,2.4813582123720606,template_z=2.48,keep_expected_anomaly
+T03_STATUE,The statue experienced significant physical distress during the procedure.,statue,T6,T03,pain_suffering,269.5055847167969,1.825774627135935,2.3061708925966933,template_z=2.31,keep_expected_anomaly
+T13_CROW,The crow's interests were considered in the decision.,crow,T3,T13,moral_consideration,249.92623901367188,1.6064147234965434,2.5398087482425917,template_z=2.54,review
+T13_ZEBRAFISH,The zebrafish's interests were considered in the decision.,zebrafish,T3,T13,moral_consideration,246.8865203857422,1.5723588160406012,2.4801989021825563,template_z=2.48,review
+T14_MOSS,Policymakers agreed that the moss's wellbeing deserved protection.,moss,T6,T14,moral_consideration,227.39935302734375,1.3540316452168741,2.3605021319349464,template_z=2.36,keep_expected_anomaly
+T14_ZEBRAFISH,Policymakers agreed that the zebrafish's wellbeing deserved protection.,zebrafish,T3,T14,moral_consideration,226.0143585205078,1.3385146679814128,2.3226339405107894,template_z=2.32,review
+T15_CROW,The committee debated how much moral weight to give the crow.,crow,T3,T15,moral_consideration,225.7188262939453,1.3352036318659037,3.0832278071388193,template_z=3.08,review
+T13_MUSHROOM,The mushroom's interests were considered in the decision.,mushroom,T6,T13,moral_consideration,222.60031127929688,1.3002649182089865,2.0039386414744658,template_z=2.00,keep_expected_anomaly
+T09_REFUGEE,Scientists studied whether the refugee could suffer.,refugee,T1,T09,scientific_welfare,217.6261444091797,1.2445361527098917,2.8269088713264074,template_z=2.83,review
+T15_MOSS,The committee debated how much moral weight to give the moss.,moss,T6,T15,moral_consideration,207.66249084472656,1.132906983945285,2.488510240462387,template_z=2.49,keep_expected_anomaly
+T12_CLOUD,Evidence suggested the cloud might be capable of feeling distress.,cloud,T6,T12,scientific_welfare,204.86172485351562,1.101528215355972,3.094785807103333,template_z=3.09,review
+T09_CROW,Scientists studied whether the crow could suffer.,crow,T3,T09,scientific_welfare,204.84678649902344,1.1013608514383202,2.45027923625994,template_z=2.45,review
+T06_ZEBRAFISH,The zebrafish was visibly terrified by what was happening.,zebrafish,T3,T06,fear,202.3964385986328,1.0739080403248782,4.251535140012803,template_z=4.25,review
+T15_ZEBRAFISH,The committee debated how much moral weight to give the zebrafish.,zebrafish,T3,T15,moral_consideration,196.70645141601562,1.010159483094538,2.127653568975597,template_z=2.13,review
+T11_CROW,The study aimed to determine whether the crow had subjective experiences.,crow,T3,T11,scientific_welfare,177.91270446777344,0.7996011436025537,2.592963181583671,template_z=2.59,review
+T12_ROCK,Evidence suggested the rock might be capable of feeling distress.,rock,T6,T12,scientific_welfare,171.2299346923828,0.7247298094833572,2.131789833168181,template_z=2.13,review
+T12_TABLE,Evidence suggested the table might be capable of feeling distress.,table,T6,T12,scientific_welfare,170.41481018066406,0.71559744944151,2.1084499627872053,template_z=2.11,review
+T22_ZEBRAFISH,"Despite the zebrafish's visible terror, no one considered whether it deserved protection.",zebrafish,T3,T22,cross_framing,164.95391845703125,0.6544155948257017,4.971137460729332,template_z=4.97,review
+T06_BACTERIUM,The bacterium was visibly terrified by what was happening.,bacterium,T6,T06,fear,164.42172241210938,0.6484530629361557,3.0395484071170604,template_z=3.04,keep_expected_anomaly
+T06_MOSS,The moss was visibly terrified by what was happening.,moss,T6,T06,fear,145.4832000732422,0.43627271236073745,2.4351136642050815,template_z=2.44,keep_expected_anomaly
+T20_ZEBRAFISH,The zebrafish remained still for several minutes.,zebrafish,T3,T20,neutral_control,144.00823974609375,0.41974779063245077,3.076909505475637,template_z=3.08,review
+T20_REFUGEE,The refugee remained still for several minutes.,refugee,T1,T20,neutral_control,135.2124786376953,0.32120326629395674,2.727303239562072,template_z=2.73,review
+T23_ZEBRAFISH,The committee agreed that the zebrafish's fear was a morally relevant factor in their decision.,zebrafish,T3,T23,cross_framing,129.9590606689453,0.262345872544659,2.5295334430907808,template_z=2.53,review
+T10_CLOUD,Researchers debated whether the cloud was capable of experiencing pain.,cloud,T6,T10,scientific_welfare,128.09457397460938,0.24145683836507556,3.9496422640002233,template_z=3.95,review
+T23_CLOUD,The committee agreed that the cloud's fear was a morally relevant factor in their decision.,cloud,T6,T23,cross_framing,126.87393951416016,0.22778129160866248,2.379918146994306,template_z=2.38,keep_expected_anomaly
+T23_MUSHROOM,The committee agreed that the mushroom's fear was a morally relevant factor in their decision.,mushroom,T6,T23,cross_framing,124.93505859375,0.20605877144285611,2.2858906425791115,template_z=2.29,keep_expected_anomaly
+T20_MOSS,The moss remained still for several minutes.,moss,T6,T20,neutral_control,123.36487579345703,0.18846701158575724,2.25639502146072,template_z=2.26,review
+T10_ROCK,Researchers debated whether the rock was capable of experiencing pain.,rock,T6,T10,scientific_welfare,105.75576782226562,-0.008819061519314433,2.8631949322922168,template_z=2.86,review
+T10_RIVER,Researchers debated whether the river was capable of experiencing pain.,river,T6,T10,scientific_welfare,101.34492492675781,-0.05823654906960878,2.6486736878834196,template_z=2.65,review
+T10_REFUGEE,Researchers debated whether the refugee was capable of experiencing pain.,refugee,T1,T10,scientific_welfare,90.72396850585938,-0.17722990116485293,2.132123712697684,template_z=2.13,review
+T07_MOSS,A sense of dread overcame the moss as the door closed.,moss,T6,T07,fear,87.16130828857422,-0.21714465693929297,2.0802771118822174,template_z=2.08,keep_expected_anomaly
+T04_CLOUD,"After the injury, the cloud showed clear signs of pain.",cloud,T6,T04,pain_suffering,77.29015350341797,-0.32773750285527226,3.2378527375554764,template_z=3.24,keep_expected_anomaly
+T19_BACTERIUM,Someone noticed the bacterium on the other side of the field.,bacterium,T6,T19,neutral_control,71.88652038574219,-0.3882778527713982,3.3498000964920833,template_z=3.35,review
+T02_MUSHROOM,Everyone could see that the mushroom was suffering.,mushroom,T6,T02,pain_suffering,66.20270538330078,-0.4519572591287147,2.7317736897263187,template_z=2.73,keep_expected_anomaly
+T04_MUSHROOM,"After the injury, the mushroom showed clear signs of pain.",mushroom,T6,T04,pain_suffering,63.36045455932617,-0.48380080877126175,2.0722271255991114,template_z=2.07,keep_expected_anomaly
+T04_BACTERIUM,"After the injury, the bacterium showed clear signs of pain.",bacterium,T6,T04,pain_suffering,63.09505081176758,-0.4867742963112818,2.0500183609369924,template_z=2.05,keep_expected_anomaly
+T19_ZEBRAFISH,Someone noticed the zebrafish on the other side of the field.,zebrafish,T3,T19,neutral_control,60.99603271484375,-0.5102909354503037,2.1987503885252218,template_z=2.20,review
+T02_MOSS,Everyone could see that the moss was suffering.,moss,T6,T02,pain_suffering,59.588829040527344,-0.526056736160885,2.1485359690327077,template_z=2.15,keep_expected_anomaly
+T02_ZEBRAFISH,Everyone could see that the zebrafish was suffering.,zebrafish,T3,T02,pain_suffering,58.9036979675293,-0.5337326967589563,2.0881184068222565,template_z=2.09,review
+T16_ZEBRAFISH,It was decided that the zebrafish deserved to be treated with care.,zebrafish,T3,T16,moral_consideration,57.71327209472656,-0.5470697974316395,2.6644903353772262,template_z=2.66,review
+T16_NEMATODE,It was decided that the nematode deserved to be treated with care.,nematode,T5,T16,moral_consideration,53.786746978759766,-0.5910611638509298,2.2003673715503043,template_z=2.20,review
+T24_MUSHROOM,"It was impossible to ignore that the mushroom was suffering, and everyone felt they had a responsibility to help.",mushroom,T6,T24,cross_framing,26.610149383544922,-0.8955379283007939,2.2809403769266767,template_z=2.28,keep_expected_anomaly

@@ -1,164 +1,156 @@
-12:01:05  INFO      ============================================================
-12:01:05  INFO      SENTIENCE SALIENCE PROBE � FULL CORPUS EXTRACTION
-12:01:05  INFO      ============================================================
-12:01:05  INFO      Model       : pythia-160m
-12:01:05  INFO      Corpus      : entity_position_lookup.json
-12:01:05  INFO      Output HDF5 : activations_160m.h5
-12:01:05  INFO      dtype       : float16
-12:01:05  WARNING   No GPU detected � extraction will be very slow on CPU
-12:01:05  INFO      RAM : 16.9 GB
-12:01:05  INFO      Disk free : 166.6 GB
-12:01:05  INFO      Estimated HDF5 output : ~0.65 GB
-12:01:05  INFO      Loading pythia-160m...
-12:01:05  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
-12:01:05  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-12:01:05  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
-12:01:06  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/tokenizer_config.json "HTTP/1.1 200 OK"
-12:01:07  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
-12:01:07  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
-12:01:08  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
-12:01:19  INFO      Model loaded in 13.9s
-12:01:19  INFO        Layers  : 12
-12:01:19  INFO        Heads   : 12
-12:01:19  INFO        d_model : 768
-12:01:19  INFO        d_mlp   : 3072
-12:01:19  INFO      Corpus loaded: 1,500 extraction jobs
-12:01:19  INFO        Entities  : 60
-12:01:19  INFO        Templates : 25
-12:01:19  INFO      Jobs remaining: 1,500 (skipping 0 completed)
-12:01:19  INFO      HDF5 file: activations_160m.h5  (mode='w')
-12:01:19  INFO      
+21:47:39  INFO      ============================================================
+21:47:39  INFO      SENTIENCE SALIENCE PROBE — FULL CORPUS EXTRACTION
+21:47:39  INFO      ============================================================
+21:47:39  INFO      Model       : pythia-1.4b
+21:47:39  INFO      Corpus      : entity_position_lookup.json
+21:47:39  INFO      Output HDF5 : activations_160m.h5
+21:47:39  INFO      dtype       : float16
+21:47:39  WARNING   No GPU detected — extraction will be very slow on CPU
+21:47:39  INFO      RAM : 17.2 GB
+21:47:39  INFO      Disk free : 312.1 GB
+21:47:39  INFO      Estimated HDF5 output : ~0.65 GB
+21:47:39  INFO      Loading pythia-1.4b...
+21:47:39  WARNING   float16 models may not work on CPU. Consider using a GPU or bfloat16.
+21:47:39  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:47:39  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+21:47:39  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:47:39  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+21:47:39  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+21:47:40  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:47:40  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+21:47:40  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:47:40  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/config.json "HTTP/1.1 200 OK"
+21:47:40  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-1.4b/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+21:47:40  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-1.4b/fedc38a16eea3bd36a96b906d78d11d2ce18ed79/tokenizer_config.json "HTTP/1.1 200 OK"
+21:47:40  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-1.4b/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+21:47:40  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-1.4b/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+21:47:40  WARNING   With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+21:49:05  INFO      Model loaded in 86.6s
+21:49:05  INFO        Layers  : 24
+21:49:05  INFO        Heads   : 16
+21:49:05  INFO        d_model : 2048
+21:49:05  INFO        d_mlp   : 8192
+21:49:06  INFO      Corpus loaded: 1,500 extraction jobs
+21:49:06  INFO        Entities  : 60
+21:49:06  INFO        Templates : 25
+21:49:06  INFO      Jobs remaining: 1,500 (skipping 0 completed)
+21:49:06  INFO      HDF5 file: activations_160m.h5  (mode='w')
+21:49:06  INFO      
 Starting extraction: 1500 sentences remaining
-12:01:19  INFO      ------------------------------------------------------------
-12:05:24  INFO        [  50/1500]    3.3%  0.2 sent/s  ETA 118.4min  errors=0
-12:08:57  INFO        [ 100/1500]    6.7%  0.2 sent/s  ETA 106.8min  errors=0
-12:08:57  INFO        Checkpoint saved (100 done)
-12:12:16  INFO        [ 150/1500]   10.0%  0.2 sent/s  ETA 98.5min  errors=0
-12:15:45  INFO        [ 200/1500]   13.3%  0.2 sent/s  ETA 93.8min  errors=0
-12:15:45  INFO        Checkpoint saved (200 done)
-12:19:13  INFO        [ 250/1500]   16.7%  0.2 sent/s  ETA 89.5min  errors=0
-12:23:08  INFO        [ 300/1500]   20.0%  0.2 sent/s  ETA 87.3min  errors=0
-12:23:08  INFO        Checkpoint saved (300 done)
-12:26:46  INFO        [ 350/1500]   23.3%  0.2 sent/s  ETA 83.6min  errors=0
-12:30:19  INFO        [ 400/1500]   26.7%  0.2 sent/s  ETA 79.7min  errors=0
-12:30:19  INFO        Checkpoint saved (400 done)
-12:33:54  INFO        [ 450/1500]   30.0%  0.2 sent/s  ETA 76.0min  errors=0
-12:37:23  INFO        [ 500/1500]   33.3%  0.2 sent/s  ETA 72.1min  errors=0
-12:37:23  INFO        Checkpoint saved (500 done)
-12:40:49  INFO        [ 550/1500]   36.7%  0.2 sent/s  ETA 68.2min  errors=0
-12:44:26  INFO        [ 600/1500]   40.0%  0.2 sent/s  ETA 64.7min  errors=0
-12:44:26  INFO        Checkpoint saved (600 done)
-12:47:45  INFO        [ 650/1500]   43.3%  0.2 sent/s  ETA 60.7min  errors=0
-12:51:06  INFO        [ 700/1500]   46.7%  0.2 sent/s  ETA 56.9min  errors=0
-12:51:06  INFO        Checkpoint saved (700 done)
-12:54:50  INFO        [ 750/1500]   50.0%  0.2 sent/s  ETA 53.5min  errors=0
-12:58:25  INFO        [ 800/1500]   53.3%  0.2 sent/s  ETA 50.0min  errors=0
-12:58:25  INFO        Checkpoint saved (800 done)
-13:01:45  INFO        [ 850/1500]   56.7%  0.2 sent/s  ETA 46.2min  errors=0
-13:05:23  INFO        [ 900/1500]   60.0%  0.2 sent/s  ETA 42.7min  errors=0
-13:05:23  INFO        Checkpoint saved (900 done)
-13:08:56  INFO        [ 950/1500]   63.3%  0.2 sent/s  ETA 39.1min  errors=0
-13:12:06  INFO        [1000/1500]   66.7%  0.2 sent/s  ETA 35.4min  errors=0
-13:12:06  INFO        Checkpoint saved (1000 done)
-13:15:10  INFO        [1050/1500]   70.0%  0.2 sent/s  ETA 31.7min  errors=0
-13:18:34  INFO        [1100/1500]   73.3%  0.2 sent/s  ETA 28.1min  errors=0
-13:18:34  INFO        Checkpoint saved (1100 done)
-13:22:05  INFO        [1150/1500]   76.7%  0.2 sent/s  ETA 24.6min  errors=0
-13:25:29  INFO        [1200/1500]   80.0%  0.2 sent/s  ETA 21.0min  errors=0
-13:25:29  INFO        Checkpoint saved (1200 done)
-13:29:19  INFO        [1250/1500]   83.3%  0.2 sent/s  ETA 17.6min  errors=0
-13:32:29  INFO        [1300/1500]   86.7%  0.2 sent/s  ETA 14.0min  errors=0
-13:32:29  INFO        Checkpoint saved (1300 done)
-13:35:38  INFO        [1350/1500]   90.0%  0.2 sent/s  ETA 10.5min  errors=0
-13:39:01  INFO        [1400/1500]   93.3%  0.2 sent/s  ETA 7.0min  errors=0
-13:39:01  INFO        Checkpoint saved (1400 done)
-13:42:25  INFO        [1450/1500]   96.7%  0.2 sent/s  ETA 3.5min  errors=0
-13:45:34  INFO        [1500/1500]  100.0%  0.2 sent/s  ETA 0.0min  errors=0
-13:45:34  INFO        Checkpoint saved (1500 done)
-13:45:34  INFO      
+21:49:06  INFO      ------------------------------------------------------------
+22:10:57  INFO        [  50/1500]    3.3%  0.0 sent/s  ETA 633.9min  errors=0
+22:31:49  INFO        [ 100/1500]    6.7%  0.0 sent/s  ETA 598.1min  errors=0
+22:31:49  INFO        Checkpoint saved (100 done)
+22:52:36  INFO        [ 150/1500]   10.0%  0.0 sent/s  ETA 571.6min  errors=0
+23:14:10  INFO        [ 200/1500]   13.3%  0.0 sent/s  ETA 552.9min  errors=0
+23:14:10  INFO        Checkpoint saved (200 done)
+23:41:29  INFO        [ 250/1500]   16.7%  0.0 sent/s  ETA 561.9min  errors=0
+00:12:43  INFO        [ 300/1500]   20.0%  0.0 sent/s  ETA 574.5min  errors=0
+00:12:43  INFO        Checkpoint saved (300 done)
+00:41:41  INFO        [ 350/1500]   23.3%  0.0 sent/s  ETA 567.1min  errors=0
+01:09:27  INFO        [ 400/1500]   26.7%  0.0 sent/s  ETA 551.0min  errors=0
+01:09:27  INFO        Checkpoint saved (400 done)
+05:38:23  INFO        [ 450/1500]   30.0%  0.0 sent/s  ETA 1095.0min  errors=0
+08:57:47  INFO        [ 500/1500]   33.3%  0.0 sent/s  ETA 1337.4min  errors=0
+08:57:47  INFO        Checkpoint saved (500 done)
+09:23:32  INFO        [ 550/1500]   36.7%  0.0 sent/s  ETA 1199.5min  errors=0
+09:44:02  INFO        [ 600/1500]   40.0%  0.0 sent/s  ETA 1072.4min  errors=0
+09:44:02  INFO        Checkpoint saved (600 done)
+10:04:26  INFO        [ 650/1500]   43.3%  0.0 sent/s  ETA 961.6min  errors=0
+10:24:12  INFO        [ 700/1500]   46.7%  0.0 sent/s  ETA 863.0min  errors=0
+10:24:12  INFO        Checkpoint saved (700 done)
+10:45:39  INFO        [ 750/1500]   50.0%  0.0 sent/s  ETA 776.6min  errors=0
+11:08:38  INFO        [ 800/1500]   53.3%  0.0 sent/s  ETA 699.6min  errors=0
+11:08:38  INFO        Checkpoint saved (800 done)
+11:31:27  INFO        [ 850/1500]   56.7%  0.0 sent/s  ETA 628.9min  errors=0
+11:55:39  INFO        [ 900/1500]   60.0%  0.0 sent/s  ETA 564.4min  errors=0
+11:55:39  INFO        Checkpoint saved (900 done)
+12:27:53  INFO        [ 950/1500]   63.3%  0.0 sent/s  ETA 508.8min  errors=0
+12:57:37  INFO        [1000/1500]   66.7%  0.0 sent/s  ETA 454.3min  errors=0
+12:57:37  INFO        Checkpoint saved (1000 done)
+13:30:02  INFO        [1050/1500]   70.0%  0.0 sent/s  ETA 403.3min  errors=0
+13:53:20  INFO        [1100/1500]   73.3%  0.0 sent/s  ETA 350.6min  errors=0
+13:53:20  INFO        Checkpoint saved (1100 done)
+14:14:40  INFO        [1150/1500]   76.7%  0.0 sent/s  ETA 300.0min  errors=0
+14:35:43  INFO        [1200/1500]   80.0%  0.0 sent/s  ETA 251.7min  errors=0
+14:35:43  INFO        Checkpoint saved (1200 done)
+14:59:57  INFO        [1250/1500]   83.3%  0.0 sent/s  ETA 206.2min  errors=0
+15:21:15  INFO        [1300/1500]   86.7%  0.0 sent/s  ETA 161.9min  errors=0
+15:21:15  INFO        Checkpoint saved (1300 done)
+15:47:38  INFO        [1350/1500]   90.0%  0.0 sent/s  ETA 119.8min  errors=0
+16:12:29  INFO        [1400/1500]   93.3%  0.0 sent/s  ETA 78.8min  errors=0
+16:12:29  INFO        Checkpoint saved (1400 done)
+16:34:19  INFO        [1450/1500]   96.7%  0.0 sent/s  ETA 38.8min  errors=0
+16:55:07  INFO        [1500/1500]  100.0%  0.0 sent/s  ETA 0.0min  errors=0
+16:55:07  INFO        Checkpoint saved (1500 done)
+16:55:07  INFO      
 ============================================================
-13:45:34  INFO      EXTRACTION COMPLETE
-13:45:34  INFO      ============================================================
-13:45:34  INFO        Total sentences  : 1500
-13:45:34  INFO        Succeeded        : 1500
-13:45:34  INFO        Failed           : 0
-13:45:34  INFO        Total time       : 104.3 min
-13:45:34  INFO        Mean rate        : 0.24 sentences/sec
-13:45:35  INFO      
+16:55:07  INFO      EXTRACTION COMPLETE
+16:55:07  INFO      ============================================================
+16:55:07  INFO        Total sentences  : 1500
+16:55:07  INFO        Succeeded        : 1500
+16:55:07  INFO        Failed           : 0
+16:55:07  INFO        Total time       : 1146.0 min
+16:55:07  INFO        Mean rate        : 0.02 sentences/sec
+16:55:07  INFO      
   Summary CSV saved: activations_260M_summary.csv
-13:45:35  INFO        Rows: 1,500
-13:45:35  INFO        Groups in HDF5 : 1500
-13:45:35  INFO        File size       : 0.09 GB
-13:45:35  INFO        Expected groups : 1500
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:35  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-13:45:37  INFO        Saved: extraction_diagnostics.png
-13:45:37  INFO        activations_160m.h5                 full activations (HDF5)
-13:45:37  INFO        activations_260M_summary.csv        scalar summary per sentence
-13:45:37  INFO        extraction.log               full extraction log
-13:45:37  INFO        extraction_checkpoint.json   resume state
-13:45:37  INFO        extraction_diagnostics.png   post-run diagnostic plots
-15:45:53  INFO      HTTP Request: GET https://huggingface.co/api/whoami-v2 "HTTP/1.1 200 OK"
-15:45:53  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-15:45:53  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-15:45:53  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-15:45:53  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
-15:46:00  INFO      HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/tokenizer_config.json "HTTP/1.1 200 OK"
-15:46:00  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
-15:46:01  INFO      HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
-15:47:56  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160mb/resolve/main/config.json "HTTP/1.1 404 Not Found"
-15:47:56  INFO      HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160mb/resolve/main/config.json "HTTP/1.1 404 Not Found"
-18:43:29  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-18:43:29  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-18:57:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-18:57:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO        Rows: 1,500
+16:55:07  INFO      
+── HDF5 integrity verification ──
+16:55:07  INFO        Groups in HDF5 : 1500
+16:55:07  INFO        File size       : 0.32 GB
+16:55:07  INFO        Expected groups : 1500
+16:55:07  INFO        ✓ Group count correct
+16:55:07  INFO        ✓ All sampled shapes correct
+16:55:07  INFO      
+── Post-extraction diagnostics ──
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO      Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+16:55:07  INFO        Saved: extraction_diagnostics.png
+16:55:07  INFO      
+── Read-back utilities ready ──
+16:55:07  INFO        load_resid_post_all()         → full matrix for PCA/probing
+16:55:07  INFO        load_entity_mean_per_layer()  → per-entity mean vector by layer
+16:55:07  INFO      
+── Output files ──
+16:55:07  INFO        activations_160m.h5                 full activations (HDF5)
+16:55:07  INFO        activations_260M_summary.csv        scalar summary per sentence
+16:55:07  INFO        extraction.log               full extraction log
+16:55:07  INFO        extraction_checkpoint.json   resume state
+16:55:07  INFO        extraction_diagnostics.png   post-run diagnostic plots

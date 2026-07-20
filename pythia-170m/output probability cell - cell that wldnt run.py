@@ -27,7 +27,7 @@ warnings.filterwarnings('ignore')
 # 1. CONFIGURATION
 # ══════════════════════════════════════════════════════════════════════════════
 
-MODEL_NAME  = "pythia-160M"
+MODEL_NAME  = "pythia-1.4b"
 RANDOM_SEED = 42
 
 TIER_ORDER  = ["T1","T2","T3","T4","T5","T6"]

@@ -1,0 +1,4 @@
+prompt_id,group,spearman_r,p_value,significant
+P01,appearance_state,-0.3381086646897011,0.00823708889797143,True
+P02,researcher_observation,0.3702289878352227,0.0035947885748629942,True
+P05,emotional_attribution,0.07607444955518275,0.5634582665111296,False
